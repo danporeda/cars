@@ -12,7 +12,7 @@ const store = configureStore({
     cars: carsReducer,
     form: formReducer,
   }
-})
+});
 
 export {
   store,
