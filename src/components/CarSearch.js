@@ -10,7 +10,6 @@ function CarSearch() {
   const handleSearchTermChange = (event) => {
     dispatch(changeSearchTerm(event.target.value));
   }
-  console.log(searchTerm);
 
   return (
     <div className="list-header">
